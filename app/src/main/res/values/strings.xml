@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">List Novel Tere Liye</string>
+
+
+    <string name="heroes_name">List Buku</string>
+    <string name="description">Deskripsi</string>
+    <string name="about">About</string>
+    <string name="name">Melinda Sari</string>
+    <string name="email">a546b4nx2463@bangkit.academy</string>
+
+    <string-array name="data_name">
+        <item>Bintang</item>
+        <item>Bulan</item>
+        <item>Bumi</item>
+        <item>Hello</item>
+        <item>Hujan</item>
+        <item>Lumpu</item>
+        <item>Negeri Diujung Tanduk</item>
+        <item>Negeri Para Bedebah</item>
+        <item>Pergi</item>
+        <item>Pulang</item>
+        <item>Rindu</item>
+        <item>Teruslah Bodoh Jangan Pintar</item>
+        <item>Yang Telah Lama Pergi</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Bintang karya Tere Liye adalah novel fiksi ilmiah yang merupakan bagian dari seri Bumi. Novel ini menceritakan petualangan tiga sahabat—Raib, Seli, dan Ali—yang terlibat dalam konflik besar antar dimensi. Setelah menemukan bahwa dunia mereka terhubung dengan dimensi lain yang dipenuhi dengan teknologi canggih dan kekuatan magis, mereka harus menghadapi ancaman baru dari sosok misterius bernama Tamus. Dalam perjalanan ini, mereka menemukan rahasia besar tentang asal-usul kekuatan mereka dan tanggung jawab besar yang harus mereka emban. Penuh dengan aksi, persahabatan, dan misteri, Bintang menghadirkan kisah yang memadukan fantasi dan sains dengan alur yang menegangkan.</item>
+        <item>Bulan, karya Tere Liye, adalah lanjutan dari novel Bumi yang mengikuti petualangan Raib, Seli, dan Ali di dunia paralel yang penuh misteri dan keajaiban. Dalam novel ini, mereka melakukan perjalanan ke Klan Matahari untuk mencari jawaban atas ancaman yang menghantui dunia mereka. Ketiganya harus menghadapi tantangan-tantangan berat dan misteri-misteri kuno, sambil mengembangkan kekuatan unik masing-masing. Persahabatan, keberanian, dan pengorbanan menjadi tema sentral saat mereka berusaha melindungi dunia paralel dari kehancuran. Bulan menyajikan petualangan seru yang sarat dengan aksi, fantasi, dan pesan moral yang mendalam.</item>
+        <item>"Bumi" karya Tere Liye mengisahkan perjalanan seorang pemuda bernama Raib, yang memiliki kemampuan istimewa untuk menghilang. Bersama dua sahabatnya, Sogol dan Dinda, mereka terjebak dalam petualangan yang membawa mereka ke dunia lain yang penuh misteri dan tantangan. Dalam pencarian untuk menemukan diri dan memahami makna kehidupan, mereka berhadapan dengan berbagai konflik, baik internal maupun eksternal, yang menggugah pemikiran tentang persahabatan, cinta, dan keberanian. Novel ini mengeksplorasi tema pertumbuhan pribadi dan pentingnya menjaga hubungan dengan orang-orang terkasih di tengah ketidakpastian hidup.</item>
+        <item>"Hello" karya Tere Liye adalah novel yang mengisahkan perjalanan kehidupan Dito dan Wibi, dua sahabat yang menjalani masa kecil di panti asuhan. Mereka tumbuh bersama, namun memiliki kepribadian yang berbeda—Dito pendiam dan pemalu, sementara Wibi ceria dan periang. Setelah beranjak dewasa, keduanya menghadapi kenyataan hidup yang penuh tantangan dan perpisahan. Melalui surat-surat yang mereka tulis, novel ini menggambarkan bagaimana persahabatan mereka bertahan meski terpisah oleh waktu dan jarak, serta bagaimana kenangan masa kecil mampu menjadi kekuatan dalam menghadapi berbagai ujian hidup.</item>
+        <item>Hujan adalah novel karya Tere Liye yang bercerita tentang Lail, seorang gadis muda yang hidup di masa depan ketika dunia menghadapi bencana besar akibat perubahan iklim. Setelah serangkaian peristiwa tragis yang mengubah hidupnya, termasuk kehilangan orang-orang yang ia cintai, Lail harus menghadapi kenyataan pahit tentang cinta, kehilangan, dan arti hidup. Dibantu oleh teman-temannya, terutama Esok, Lail belajar untuk menerima takdir dan menemukan harapan di tengah kekacauan yang terjadi. Kisah ini sarat dengan tema tentang memori, kerinduan, serta upaya manusia untuk bertahan dalam situasi terburuk.</item>
+        <item>"Lumpu" karya Tere Liye adalah bagian dari seri Bumi yang mengikuti perjalanan Raib, Seli, dan Ali, tiga remaja dengan kekuatan luar biasa dari klan berbeda. Dalam novel ini, mereka menghadapi musuh baru bernama Lumpu, sosok misterius yang memiliki kekuatan untuk melumpuhkan lawannya. Ketiganya terlibat dalam misi penuh risiko untuk menyelamatkan dunia paralel dari kehancuran yang disebabkan oleh Lumpu. Di tengah konflik ini, mereka belajar tentang persahabatan, pengorbanan, dan kekuatan kerja sama, sambil menghadapi dilema pribadi yang menguji keberanian dan kebijaksanaan mereka. Novel ini dipenuhi dengan petualangan seru dan intrik yang membuat pembaca terus terhanyut dalam kisahnya.</item>
+        <item>Negeri Di Ujung Tanduk karya Tere Liye merupakan sekuel dari Negeri Para Bedebah, yang menceritakan kelanjutan petualangan Thomas, seorang konsultan keuangan sekaligus petarung ulung dalam menghadapi skandal besar di negeri ini. Kali ini, Thomas terjebak dalam intrik politik yang jauh lebih berbahaya, di mana kebenaran dan keadilan terancam oleh kekuasaan dan kepentingan segelintir elite. Dengan segala kecerdikan dan keberanian, Thomas harus menghadapi lawan-lawan yang lebih tangguh, menyelami konflik moral, dan menentukan sikapnya dalam mempertaruhkan masa depan negeri yang berada di ujung kehancuran. Novel ini menggambarkan perjuangan melawan korupsi, kekuasaan gelap, dan pengkhianatan, dengan ketegangan yang terus meningkat hingga akhir.</item>
+        <item>Negeri Para Bedebah karya Tere Liye adalah novel yang mengisahkan Thomas, seorang konsultan keuangan yang cerdas dan tangguh, yang terjebak dalam skandal besar yang melibatkan bank milik pamannya. Dihantui oleh masa lalunya, Thomas harus berpacu melawan waktu untuk menyelamatkan pamannya dari tuntutan hukum dan kehancuran reputasi, sambil menghadapi konspirasi dan kekuatan-kekuatan besar yang ingin menghancurkannya. Dalam perjalanannya, Thomas harus membuat keputusan-keputusan sulit yang mengguncang nilai-nilai moralnya, di tengah kegaduhan politik dan korupsi yang membelit negeri ini. Novel ini menggambarkan perjuangan, intrik, dan ketidakadilan yang terjadi dalam sistem keuangan dan politik yang penuh tipu daya.</item>
+        <item>Pergi adalah novel karya Tere Liye yang merupakan lanjutan dari novel Pulang. Kisah ini mengikuti perjalanan hidup Bujang, seorang pemuda yang sebelumnya bergabung dengan keluarga Tong, sebuah keluarga mafia ternama. Setelah meninggalkan kehidupan kelamnya sebagai tangan kanan keluarga tersebut, Bujang memutuskan untuk pergi mencari kedamaian dan makna hidup. Dalam perjalanan ini, ia terjebak di berbagai konflik yang melibatkan dunia kejahatan internasional, politik, serta moralitas. Novel ini mengeksplorasi tema pencarian jati diri, pengampunan, dan pertarungan batin dalam menghadapi kehidupan yang penuh pilihan sulit.</item>
+        <item>Pulang karya Tere Liye mengisahkan perjalanan hidup Bujang, seorang anak kampung yang terlibat dalam dunia kriminal internasional. Terlahir dari keluarga sederhana di pedalaman Sumatera, Bujang tumbuh menjadi sosok yang keras dan tangguh setelah ayahnya meninggal dalam sebuah tragedi. Ia kemudian berguru kepada Tauke Besar, pemimpin sindikat berbahaya, dan terlibat dalam banyak aksi kekerasan serta kejahatan. Meski dikelilingi dunia kelam, Bujang selalu merindukan pulang ke tanah kelahirannya dan bertemu kembali dengan ibunya. Novel ini mengangkat tema tentang pilihan hidup, kesetiaan, dan makna sesungguhnya dari kata "pulang"—baik secara fisik maupun emosional.</item>
+        <item>Rindu karya Tere Liye adalah sebuah novel yang berlatar belakang pada perjalanan haji di tahun 1938. Dalam cerita ini, lima tokoh utama—Daeng Andipati, Ambo Uleng, Mbah Kakung, Anna, dan Gurutta—masing-masing membawa luka, kegelisahan, dan penyesalan dalam hidup mereka. Di atas kapal Blitar Holland yang membawa mereka menuju tanah suci, mereka saling berbagi kisah dan menemukan makna sejati dari rindu yang selama ini mereka pendam, baik terhadap manusia, Tuhan, maupun terhadap diri sendiri. Novel ini mengangkat tema cinta, kehilangan, pengampunan, dan perjalanan spiritual yang penuh emosi serta refleksi mendalam.</item>
+        <item>"Teruslah Bodoh, Jangan Pintar" adalah novel karya Tere Liye yang menyoroti isu lingkungan dan ketidakadilan sosial di Indonesia. Novel ini mengajak pembaca untuk membuka mata terhadap kerusakan lingkungan yang diakibatkan oleh keserakahan segelintir orang. Melalui kisah yang menegangkan, Tere Liye menggambarkan perjuangan sekelompok pemuda yang melawan korporasi besar demi melindungi alam dan masyarakat. Novel ini adalah sebuah panggilan bagi pembaca untuk berani bersuara dan tidak tinggal diam ketika melihat ketidakadilan terjadi.</item>
+        <item>"Yang Telah Lama Pergi" adalah kisah menyentuh tentang seorang pria bernama Borno, yang berasal dari sebuah desa sederhana di tepian sungai Kapuas. Desa yang dikelilingi oleh alam yang indah ini tidak hanya menjadi latar tempat tinggalnya, tetapi juga saksi bisu perjuangan hidup Borno. Sejak kecil, ia telah terbiasa dengan tantangan dan kesulitan, yang membentuknya menjadi sosok yang kuat. Namun, hidupnya tidak selalu berjalan mulus, terutama ketika ia menghadapi perpisahan yang menyakitkan dari orang-orang tercintanya.
+Cinta menjadi salah satu tema sentral dalam hidup Borno, terutama hubungan romantisnya dengan Mei, seorang gadis desa yang penuh semangat dan harapan. Kisah cinta mereka adalah perjalanan yang penuh liku-liku, diwarnai dengan momen-momen indah dan pahit. Ketika keduanya menghadapi cobaan, Borno merasa terjebak antara cintanya kepada Mei dan tanggung jawabnya kepada keluarganya. Kehilangan menjadi bayang-bayang yang selalu mengikutinya, membuatnya semakin sadar akan fragilitas hidup.
+Saat Borno kehilangan orang-orang terkasihnya, termasuk ayahnya, hidupnya mengalami perubahan drastis. Rasa kesepian dan kehilangan menghantuinya, menjadikannya semakin introspektif. Dalam prosesnya, Borno belajar untuk menghadapi rasa sakit dan merelakan. Dia menyadari bahwa setiap perpisahan membawa pelajaran berharga yang membentuk karakter dan kepribadiannya. Setiap kenangan yang tersisa adalah pengingat akan cinta yang pernah ada, meskipun kini telah pergi.
+Melalui berbagai kejadian dan pertemuan tak terduga, Borno menemukan makna baru dalam hidupnya. Dia belajar tentang keikhlasan dan pentingnya memaafkan diri sendiri. Menghadapi masa lalu tidaklah mudah, tetapi Borno menemukan kekuatan dalam diri untuk bangkit kembali. Dengan mengizinkan dirinya merasakan kesedihan dan kehilangan, ia mampu melangkah ke depan dan menemukan harapan baru di tengah kesedihan.
+"Yang Telah Lama Pergi" mengajarkan kita bahwa perpisahan bukanlah akhir dari segalanya. Sebaliknya, ia adalah bagian dari perjalanan hidup yang harus dilalui setiap individu. Melalui perjalanan Borno, pembaca diingatkan bahwa meskipun kehilangan terasa menyakitkan, setiap pengalaman dapat menjadi sarana untuk tumbuh dan belajar. Kisah ini adalah tentang menemukan cinta dalam diri sendiri dan menjalani hidup dengan keikhlasan, meskipun jalan yang harus ditempuh tidak selalu mulus.</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/bintang</item>
+        <item>@drawable/bulan</item>
+        <item>@drawable/bumi</item>
+        <item>@drawable/hello</item>
+        <item>@drawable/hujan</item>
+        <item>@drawable/lumpu</item>
+        <item>@drawable/negeri_diujung_tanduk</item>
+        <item>@drawable/negeri_para_bedebah</item>
+        <item>@drawable/pergi</item>
+        <item>@drawable/pulang</item>
+        <item>@drawable/rindu</item>
+        <item>@drawable/teruslah_bodoh_jangan_pintar</item>
+        <item>@drawable/yang_telah_lama_pergi</item>
+    </integer-array>
+
+</resources>
