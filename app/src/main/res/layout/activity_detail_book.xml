@@ -14,37 +14,153 @@
             android:id="@+id/img_item_photo"
             android:layout_width="164dp"
             android:layout_height="231dp"
-            android:layout_marginTop="60dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="44dp"
+            android:contentDescription="@string/desc_image_book"
             android:scaleType="centerCrop"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:srcCompat="@tools:sample/avatars" />
 
-        <TextView
-            android:id="@+id/tv_item_name"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="TextView"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/img_item_photo" />
 
-        <TextView
-            android:id="@+id/tv_item_description"
-            android:layout_width="0dp"
+        <LinearLayout
+            android:id="@+id/container_info"
+            android:layout_width="wrap_content"
+            android:layout_height="220dp"
+            android:layout_marginTop="44dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.14"
+            app:layout_constraintStart_toEndOf="@+id/img_item_photo"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <!-- input judul Buku -->
+            <TextView
+                android:id="@+id/label_judul_buku"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_buku"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <!--  value Judul Buku -->
+
+            <TextView
+                android:id="@+id/value_judul_buku"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sample_input"
+                android:textSize="14sp" />
+
+
+            <!-- input penerbit -->
+            <TextView
+                android:id="@+id/label_penerbit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_penerbit"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <!--  value penerbit -->
+
+            <TextView
+                android:id="@+id/value_penerbit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sample_input"
+                android:textSize="14sp" />
+
+
+            <!-- input tahun terbit -->
+            <TextView
+                android:id="@+id/label_terbit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_terbit"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <!--  value tahun terbit -->
+
+            <TextView
+                android:id="@+id/value_terbit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sample_input"
+                android:textSize="14sp" />
+
+
+            <!-- input genre Buku -->
+            <TextView
+                android:id="@+id/label_genre_buku"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_genre"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <!--  value genre Buku -->
+
+            <TextView
+                android:id="@+id/value_genre_buku"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sample_input"
+                android:textSize="14sp" />
+
+
+            <!-- input halaman Buku -->
+            <TextView
+                android:id="@+id/label_halaman_buku"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_halaman"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <!--  value halaman Buku -->
+
+            <TextView
+                android:id="@+id/value_halaman_buku"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sample_input"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="32dp"
             android:layout_marginEnd="16dp"
-            android:text="TextView"
+            android:orientation="vertical"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.11"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tv_item_name" />
+            app:layout_constraintTop_toBottomOf="@+id/img_item_photo">
+
+            <TextView
+                android:id="@+id/labelDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_desc"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:id="@+id/valueDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:paddingEnd="8dp"
+                android:text="@string/sample_input" />
+        </LinearLayout>
+
+
+
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

@@ -8,6 +8,41 @@
     <string name="name">Melinda Sari</string>
     <string name="email">a546b4nx2463@bangkit.academy</string>
 
+
+
+<!--    nama input -->
+    <string name="label_buku">Judul Buku :</string>
+    <string name="label_penerbit">Penerbit :</string>
+    <string name="label_terbit">Terbit :</string>
+    <string name="label_genre">Genre :</string>
+    <string name="label_halaman">Tebal Buku :</string>
+    <string name="label_desc">Deskripsi :</string>
+    <string name="desc_image_book">gambar-sampul-buku</string>
+
+<!--    sample input -->
+    <string name="sample_input">Sample Input</string>
+
+
+
+
+
+    <integer-array name="data_photo">
+        <item>@drawable/bintang</item>
+        <item>@drawable/bulan</item>
+        <item>@drawable/bumi</item>
+        <item>@drawable/hello</item>
+        <item>@drawable/hujan</item>
+        <item>@drawable/lumpu</item>
+        <item>@drawable/negeri_diujung_tanduk</item>
+        <item>@drawable/negeri_para_bedebah</item>
+        <item>@drawable/pergi</item>
+        <item>@drawable/pulang</item>
+        <item>@drawable/rindu</item>
+        <item>@drawable/teruslah_bodoh_jangan_pintar</item>
+        <item>@drawable/yang_telah_lama_pergi</item>
+    </integer-array>
+
+
     <string-array name="data_name">
         <item>Bintang</item>
         <item>Bulan</item>
@@ -23,6 +58,77 @@
         <item>Teruslah Bodoh Jangan Pintar</item>
         <item>Yang Telah Lama Pergi</item>
     </string-array>
+
+
+
+    <string-array name="data_penerbit">
+        <item>Gramedia Pustaka Utama</item>
+        <item>Gramedia Pustaka Utama</item>
+        <item>Gramedia Pustaka Utama</item>
+        <item>Gramedia Pustaka Utama</item>
+        <item>Gramedia Pustaka Utama</item>
+        <item>Gramedia Pustaka Utama</item>
+        <item>Gramedia Pustaka Utama</item>
+        <item>Gramedia Pustaka Utama</item>
+        <item>Gramedia Pustaka Utama</item>
+        <item>Gramedia Pustaka Utama</item>
+        <item>Gramedia Pustaka Utama</item>
+        <item>Sabakgrip</item>
+        <item>GSabakgrip</item>
+    </string-array>
+
+
+    <string-array name="data_terbit">
+        <item>2017</item>
+        <item>2015</item>
+        <item>2014</item>
+        <item>2013</item>
+        <item>2016</item>
+        <item>2021</item>
+        <item>2013</item>
+        <item>2012</item>
+        <item>2018</item>
+        <item>2015</item>
+        <item>2014</item>
+        <item>2024</item>
+        <item>2023</item>
+    </string-array>
+    
+    <string-array name="data_genre">
+        <item>Fiksi, Fantasi, Petualangan</item>
+        <item>Fiksi, Fantasi, Petualangan</item>
+        <item>Fiksi, Fantasi, Petualangan</item>
+        <item>Romance</item>
+        <item>Fiksi, Fiksi Ilmiah, Drama</item>
+        <item>Fiksi, Fantasi, Petualangan</item>
+        <item>Fiksi, Thriller, Politik</item>
+        <item>Fiksi, Thriller, Politik</item>
+        <item>iksi, Drama, Aksi</item>
+        <item>Fiksi, Drama, Aksi</item>
+        <item>Fiksi, Drama, Sejarah</item>
+        <item>Slice Of Life</item>
+        <item>Action</item>
+    </string-array>
+
+
+    <string-array name="data_halaman">
+        <item>392 Halaman</item>
+        <item>400 Halaman</item>
+        <item>440 Halaman</item>
+        <item>444 Halaman</item>
+        <item>320 Halaman</item>
+        <item>384 Halaman</item>
+        <item>360 Halaman</item>
+        <item>440 Halaman</item>
+        <item>456 Halaman</item>
+        <item>400 Halaman</item>
+        <item>544 Halaman</item>
+        <item>373 Halaman</item>
+        <item>442 Halaman</item>
+    </string-array>
+
+
+
 
     <string-array name="data_description">
         <item>Bintang karya Tere Liye adalah novel fiksi ilmiah yang merupakan bagian dari seri Bumi. Novel ini menceritakan petualangan tiga sahabat—Raib, Seli, dan Ali—yang terlibat dalam konflik besar antar dimensi. Setelah menemukan bahwa dunia mereka terhubung dengan dimensi lain yang dipenuhi dengan teknologi canggih dan kekuatan magis, mereka harus menghadapi ancaman baru dari sosok misterius bernama Tamus. Dalam perjalanan ini, mereka menemukan rahasia besar tentang asal-usul kekuatan mereka dan tanggung jawab besar yang harus mereka emban. Penuh dengan aksi, persahabatan, dan misteri, Bintang menghadirkan kisah yang memadukan fantasi dan sains dengan alur yang menegangkan.</item>
@@ -44,20 +150,6 @@ Melalui berbagai kejadian dan pertemuan tak terduga, Borno menemukan makna baru 
 "Yang Telah Lama Pergi" mengajarkan kita bahwa perpisahan bukanlah akhir dari segalanya. Sebaliknya, ia adalah bagian dari perjalanan hidup yang harus dilalui setiap individu. Melalui perjalanan Borno, pembaca diingatkan bahwa meskipun kehilangan terasa menyakitkan, setiap pengalaman dapat menjadi sarana untuk tumbuh dan belajar. Kisah ini adalah tentang menemukan cinta dalam diri sendiri dan menjalani hidup dengan keikhlasan, meskipun jalan yang harus ditempuh tidak selalu mulus.</item>
     </string-array>
 
-    <integer-array name="data_photo">
-        <item>@drawable/bintang</item>
-        <item>@drawable/bulan</item>
-        <item>@drawable/bumi</item>
-        <item>@drawable/hello</item>
-        <item>@drawable/hujan</item>
-        <item>@drawable/lumpu</item>
-        <item>@drawable/negeri_diujung_tanduk</item>
-        <item>@drawable/negeri_para_bedebah</item>
-        <item>@drawable/pergi</item>
-        <item>@drawable/pulang</item>
-        <item>@drawable/rindu</item>
-        <item>@drawable/teruslah_bodoh_jangan_pintar</item>
-        <item>@drawable/yang_telah_lama_pergi</item>
-    </integer-array>
+
 
 </resources>
