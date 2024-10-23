@@ -1,6 +1,8 @@
 package com.example.myrecyclerview
 
+import android.os.Build
 import android.os.Bundle
+import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
@@ -16,18 +18,32 @@ class DetailBookActivity : AppCompatActivity() {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         // Mengambil data Book yang dikirim dari MainActivity
-        val book = intent.getParcelableExtra<Book>(MainActivity.INTENT_PARCELABLE)
+        val book = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            intent.getParcelableExtra("data", Book::class.java)
+        } else {
+            @Suppress("DEPRECATION")
+            intent.getParcelableExtra<Book>("data")
+        }
 
         // Menghubungkan view dengan data
         val photo = findViewById<ImageView>(R.id.img_item_photo)
-        val name = findViewById<TextView>(R.id.tv_item_name)
-        val description = findViewById<TextView>(R.id.tv_item_description)
+        val judulBuku = findViewById<TextView>(R.id.value_judul_buku)
+        val penerbit = findViewById<TextView>(R.id.value_penerbit)
+        val terbit = findViewById<TextView>(R.id.value_terbit)
+        val genre = findViewById<TextView>(R.id.value_genre_buku)
+        val tebalBuku = findViewById<TextView>(R.id.value_halaman_buku)
+        val desc = findViewById<TextView>(R.id.valueDesc)
+
 
         // Menampilkan data ke view
         book?.let {
             photo.setImageResource(it.photo)
-            name.text = it.name
-            description.text = it.description
+            judulBuku.text = it.name
+            penerbit.text = it.penerbit
+            terbit.text = it.terbit
+            genre.text = it.genre
+            tebalBuku.text = it.halaman
+            desc.text = it.desc
         }
     }
 

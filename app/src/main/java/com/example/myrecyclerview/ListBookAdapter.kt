@@ -18,10 +18,11 @@ class ListBookAdapter(
     }
 
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
-        val (name, description, photo) = listBook[position]
-        holder.imgPhoto.setImageResource(photo)
-        holder.tvName.text = name
-        holder.tvDescription.text = description
+        val book = listBook[position]
+
+        holder.imgPhoto.setImageResource(book.photo)
+        holder.tvName.text = book.name
+        holder.tvDescription.text = book.desc
 
         holder.itemView.setOnClickListener {
             // Menggunakan callback untuk mengirim data buku ke MainActivity
