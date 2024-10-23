@@ -33,16 +33,29 @@ class MainActivity : AppCompatActivity(), ListBookAdapter.OnItemClickCallback {
 
     // Mengambil data buku dari resources
     private fun getListBook(): ArrayList<Book> {
-        val dataName = resources.getStringArray(R.array.data_name)
-        val dataDescription = resources.getStringArray(R.array.data_description)
         val dataPhoto = resources.obtainTypedArray(R.array.data_photo)
+        val dataName = resources.getStringArray(R.array.data_name)
+        val dataPenerbit = resources.getStringArray(R.array.data_penerbit)
+        val dataTerbit = resources.getStringArray(R.array.data_terbit)
+        val dataGenre = resources.getStringArray(R.array.data_genre)
+        val dataHalaman = resources.getStringArray(R.array.data_halaman)
+        val dataDescription = resources.getStringArray(R.array.data_description)
+
         val listBook = ArrayList<Book>()
 
         for (i in dataName.indices) {
-            val book = Book(dataName[i], dataDescription[i], dataPhoto.getResourceId(i, -1))
+            val book = Book(
+                dataPhoto.getResourceId(i, -1),
+                dataName[i],
+                dataPenerbit[i],
+                dataTerbit[i],
+                dataGenre[i],
+                dataHalaman[i],
+                dataDescription[i]
+            )
             listBook.add(book)
         }
-        dataPhoto.recycle()  // Jangan lupa untuk melepaskan TypedArray
+
         return listBook
     }
 
@@ -56,7 +69,7 @@ class MainActivity : AppCompatActivity(), ListBookAdapter.OnItemClickCallback {
     // Implementasi interface dari adapter untuk menangani item yang di-klik
     override fun onItemClicked(data: Book) {
         val intent = Intent(this, DetailBookActivity::class.java)
-        intent.putExtra(INTENT_PARCELABLE, data)  // Mengirim data Book ke DetailBookActivity
+        intent.putExtra("data", data)  // Mengirim data Book ke DetailBookActivity
         startActivity(intent)
     }
 
